@@ -37,10 +37,15 @@ body {
     font-family: "Pacifico", cursive;
     margin-right: 50px;
 }
-.content {
+.card-container {
     padding: 20px;
     background-color:#ffffcc;
-    height: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
 }
 .card{
     height: 250px;
