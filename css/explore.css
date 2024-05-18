@@ -116,8 +116,9 @@
     height: 30px;
     margin-top: 10px;
     border: 2px solid black;
-    
+    cursor: pointer;
 }
+
 .section {
     margin-bottom: 40px;
 }
