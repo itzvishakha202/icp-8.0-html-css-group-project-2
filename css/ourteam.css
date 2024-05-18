@@ -1,0 +1,53 @@
+  .contact-page .section-heading {
+    margin-bottom: 40px;
+    margin-right: 50px;
+    display: inline;
+  }
+
+.img-container {
+    position:absolute;
+    margin-top: 100px;
+    width: 400px;
+      height: 400px;
+  display: inline-flex;
+  
+  }
+  
+  .img-card {
+      margin: 50px;
+      padding: 10px;
+      background-color: #f6f6f6;
+      width: 150px;
+      height: 200px;
+      display: inline-block;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 2px 2px 5px ;
+  
+  
+  }
+  
+  .img {
+      border-radius: 5px;
+      height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .img-name {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+  
+  .footer {
+    background-color: rgb(30, 53, 65);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
