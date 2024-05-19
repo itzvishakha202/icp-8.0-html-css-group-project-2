@@ -181,13 +181,23 @@ button:hover {
     margin-top: 5px;
     text-align: center;
 }
-
-.offer-btn{
+.offer-btn-container {
     text-align: center;
+    margin-top: 20px;
+}
+
+.offer-btn {
     font-family: "Ubuntu", sans-serif;
     font-size: 15px;
-    font-family: "Ubuntu", sans-serif; 
-
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(30, 53, 65);
+    background-color: rgb(30, 53, 65);
+    margin-bottom: 20px;
+}
+.offer-btn a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Footer styles */
