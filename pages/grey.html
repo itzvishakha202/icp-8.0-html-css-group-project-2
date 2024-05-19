@@ -77,14 +77,29 @@
             color: black;
         }
         .block1{
-            display: flex;
+            display: block;
             background-color: lavenderblush;
-            height: 400px;
+            height: 300px;
             width: 1000px;
             margin-left: 230px;
             margin-top: 30px;
             border: 2px solid black;
+            padding: 10px;
         }
+        .sub-block{
+            display: flex;
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            font-size: 18px;
+        
+            
+        }
+        .text{
+            margin-left: 70px;
+            color: black;
+        }
+
         
         
         
@@ -130,16 +145,16 @@
 
     <div class="block1">
          <div class="sub-block">
-            800 sq.ft
+            <span class="text">800 sq.ft</span>
          </div>
          <div class="sub-block">
-            Contact
+            <span class="text">Contact</span>
          </div>
          <div class="sub-block">
-            Payment
+           <span class="text"> Payment</span>
          </div>
          <div class="sub-block">
-            Safty
+            <span class="text">Safty</span>
          </div>
     </div>
 
