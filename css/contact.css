@@ -39,8 +39,18 @@
 }
   .section{
     margin-top: 50px;
-    height: 1000px;
+    height: 1200px;vh;
     width: 100%;
+  }
+  .background-img{
+    position: relative;
+  }
+  .background-text{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    top: 50%;
+    font-size: 35px;
   }
   .section-heading {
     width: 380px;
