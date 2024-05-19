@@ -39,7 +39,7 @@
 }
   .section{
     margin-top: 50px;
-    height: 500px;
+    height: 1000px;
     width: 100%;
   }
   .section-heading {
@@ -58,7 +58,7 @@
     font-size: 25px;
   }
   .left-container{
-    background-color: #9fc7c3;
+
     width: 50%;
     float: left;
     height: 900px;
@@ -97,6 +97,7 @@
     border: 1px solid black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     margin-left: 40px;
+    margin-top: 50px;
     padding: 10px;
    height: 100px;
     width: 300px;
@@ -104,7 +105,6 @@
   }
 
   .right-container{
-    background-color: rgb(131, 102, 97);
     width: 50%;
     height: 900px;
     float: right;
@@ -169,7 +169,6 @@
   text-align: center;
   font-size: 20px;
   padding: 5px 0;
-  /*position: fixed;*/
-  bottom: 0;
   width: 100%;
+  height: 30px;
 }
