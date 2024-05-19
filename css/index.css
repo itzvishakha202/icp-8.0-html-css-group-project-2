@@ -207,6 +207,15 @@ button:hover {
     font-size: 20px;
 }
 
+.destination{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 /* Footer styles */
 .footer {
     background-color: rgb(30, 53, 65);
