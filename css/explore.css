@@ -15,14 +15,12 @@
     background-color: rgb(30, 53, 65);
     margin-bottom: 10px;
 }
-
 .navbar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
-
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
@@ -69,7 +67,7 @@
     border: 1px solid black;
 }
 .card:hover{
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 5px 8px gray;
 }
 .card-img{
     height: 120px;
@@ -119,12 +117,11 @@
     cursor: pointer;
 }
 .btn:hover{
-    box-shadow: 2px 2px 5px rgb(30 53 65);
+    box-shadow: 2px 2px 8px rgb(30 53 65);
 }
 .section {
     margin-bottom: 40px;
 }
-
 .footer {
     background-color: rgb(30, 53, 65);
     color: white;
@@ -135,3 +132,22 @@
     bottom: 0;
     width: 100%;
 }
+@media screen and (max-width: 600px) {
+    
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+  }
+
+  /* Tablet Devices */
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    
+  }
+
+  /* Dekstop device */
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+   
+  }
