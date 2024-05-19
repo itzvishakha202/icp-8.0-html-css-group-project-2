@@ -4,12 +4,14 @@
     display: inline;
   }
 
+
+
+
+  
 .img-container {
-    position:absolute;
     margin-top: 100px;
-    width: 400px;
-      height: 400px;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
   
   }
   
@@ -17,9 +19,10 @@
       margin: 50px;
       padding: 10px;
       background-color: #f6f6f6;
-      width: 150px;
-      height: 200px;
+      width: 250px;
+      height: 300px;
       display: inline-block;
+      justify-content: space-around;
       border-radius: 10px;
       border: none;
       box-shadow: 2px 2px 5px ;
@@ -29,7 +32,7 @@
   
   .img {
       border-radius: 5px;
-      height: 120px;
+      height: 150px;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -40,7 +43,14 @@
       margin-top: 10px;
       margin-bottom: 0px;
   }
-  
+  .h3{
+    margin-top: 5px;
+  }
+  .icon{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
   .footer {
     background-color: rgb(30, 53, 65);
     color: white;
