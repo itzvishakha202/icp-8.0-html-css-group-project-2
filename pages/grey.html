@@ -36,13 +36,13 @@
             text-align: center;
             font-family: "Ubantu", sans-serif;
             color: white;
-            font-size: 30px;
+            font-size: 40px;
             margin-top: 10px;
         }
         span{
             font-family: "Ubantu", sans-serif;
-            font-size: 20px;
-            color:lawngreen;
+            font-size: 22px;
+            color:yellow;
         }
         .text{
             margin-left: 2px;
@@ -128,9 +128,9 @@
         margin-top: 30px;
     }
     .head{
-        margin-left: 200px;
-        color: black;
-        font-size: 25px;
+        margin-left: 40px;
+        color: yellow;
+        font-size: 30px;
         
     }
     .main1{
@@ -145,21 +145,36 @@
         color: white;
 
     }
+
+    /* small divices */
+    @media screen and (min-width: 150px) and (max-width: 600px) {
+          
+        }
+        /* normal device */
+        @media screen and (min-width: 601px) and (max-width:768px) {
+            
+
+        }
+        /* tablets devices */
+        @media screen and (min-width: 769px) and (max-width:992px) {
+           
+            
+            
+            
+        }
+        /* large devices */
+        @media screen and (min-width: 993px) and (max-width:1200px) {
+           
+            
+        }
     
-        
-
-
-
-
-        
-        
-        
     </style>
     
 </head>
 <body>
     
-    <h2>Welcome to villa resort <br/> <span>Discover our world class hotel and restaurant resort</span></h2>
+    <h2>Welcome to villa resort <br/> <span>Discover our world class hotel and restaurant resort</span> <br/> <span class="head"> <img src="https://cdn-icons-png.flaticon.com/128/149/149059.png" height="24px" alt="">
+        Life of Saffron | Just Enjoy guys |</span></h2>
     <button class="villa-btn">Appartment</button>
     
     <h4> <img src="https://cdn-icons-png.flaticon.com/128/14831/14831599.png" height="40px"> 25, 1 Khandala Valley, Khopoli Pali Road, Chavani, MH 410203, 410203</h4>
@@ -245,11 +260,8 @@
     
     </div>
 
-    <br/>
-    <br/>
-    <div>
-        <span class="head">Life of Saffron | Just Enjoy guys |</span>
-    </div>
+    
+   
     <br/>
     <br/>
     <Button class="btn2">Price</Button>
