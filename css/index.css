@@ -304,3 +304,34 @@ button:hover {
     }
 }
 
+/* Media query for screens between 769px and 992px width */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .content {
+        margin-top: 250px;
+    }
+    
+    .content .p-heading {
+        font-size: 55px;
+    }
+    
+    .description {
+        margin: 30px;
+    }
+    
+    .offer-item {
+        width: 30%;
+    }
+    
+    .head-name2 {
+        font-size: 26px;
+    }
+    
+    .head-subtitle {
+        font-size: 18px;
+    }
+    
+    .offer-description {
+        font-size: 14px;
+    }
+}
+
