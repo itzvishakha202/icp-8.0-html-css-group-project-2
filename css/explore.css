@@ -148,14 +148,15 @@ span{
   @media screen and (min-width: 769px) and (max-width: 992px) {
     
   }
-  @media screen and (min-width: 993px) and (max-width: 1285px) {
+  @media screen and (min-width: 1154px) and (max-width: 1390px) {
    .card-container{
     padding: 10px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
+    align-items: start;
    }
    .card{
-    margin: 5px;
+    margin: 30px;
    }
   }
