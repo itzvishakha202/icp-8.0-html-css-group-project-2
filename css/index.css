@@ -215,6 +215,23 @@ button:hover {
     margin-top: 15px;
     margin-bottom: 10px;
 }
+.destination-img{
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.d-img{
+    height: 150px;
+    margin-left: 35px;
+}
+.d-name{
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
 
 /* Footer styles */
 .footer {
