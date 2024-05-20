@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(30, 53, 65);
+    position: fixed;
 }
 
 .navbar ul li {
