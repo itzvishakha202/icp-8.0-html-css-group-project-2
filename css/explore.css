@@ -106,6 +106,10 @@ span{
     color: green;
     font-weight: bold;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .btn{
     background-color:  rgb(30, 53, 65);
     color: #ffffcc;
