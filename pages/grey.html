@@ -71,6 +71,8 @@
             
            
         }
+        
+        
         h4{
             margin-left: 400px;
 
@@ -103,10 +105,7 @@
            
 
         }
-        .villa-block:hover{
-           box-shadow: 3px 4px 3px 4px lightgrey;
-           
-        }
+       
         .front{
             display: flex;
             margin: 20px;
@@ -138,6 +137,7 @@
             margin: 10px;
             padding: 20px;
             font-size: 18px;
+            cursor: pointer;
         
             
         }
@@ -148,22 +148,48 @@
         }
         .villa-photos{
         display: flex;
-        background-color: aliceblue;
+        background-color: lavenderblush;
         
         height: 504px;
-        width: 1134px;
+        width: 1140px;
         margin-left: 145px;
         margin-top: 20px;
-        border: 1px solid black;
+        border: 2px solid black;
         flex-wrap: wrap;
-        padding: 5px;
+        padding: 20px;
         justify-content: space-between;
+        
     }
     .ph1:hover{
             
-         border: 1px solid black;
+         
          cursor: pointer;
+         
+         transform: scale(1.2);
+         border-radius: 5px;
+         box-sizing: border-box;
+         transition: 0.7s;
+         
+         
+         
+        
     }
+    .villa-rating{
+        background-color: white;
+        border: 2px solid black;
+        height: 120px;
+        width: 1180px;
+        margin-left: 145px;
+        padding: 10px;
+        background-color: lemonchiffon;
+    }
+    .btn4{
+        color: black;
+        font-size: 30px;
+        display: inline-block;
+        
+    }
+   
     .main{
         
         font-size: 24px;
@@ -192,7 +218,13 @@
         font-size: 18px;
         border-radius: 10px;
         cursor: pointer;
+        margin-left: 2px;
+        
 
+    }
+    .btn3:hover{
+        transform: scale(1.2);
+        transition: 0.3s;
     }
     .footer {
     background-color: rgb(30, 53, 65);
@@ -265,10 +297,10 @@
     </div>
     <div class="villa-block">
         <div class="front">
-            Total Flat Space &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <span class="bg">1000 sq.ft</span>
+            Total Flat Space &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <span class="bg">6k sq.ft</span>
         </div>
         <div class="front">
-            Flat No  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <span class="bg">3</span>
+            Total Floors  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp   <span class="bg">2</span>
         </div>
         <div class="front">
             Number of rooms  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <span class="bg">12</span>
@@ -286,7 +318,7 @@
     <div class="block1">
          <div class="sub-block">
             <img src="https://cdn-icons-png.flaticon.com/128/2605/2605150.png" height="50px"/> &nbsp &nbsp &nbsp &nbsp
-            <span class="text">800 sq.ft</span>
+            <span class="text">4k sq.ft</span>
          </div>
          <div class="sub-block">
             <img src="https://cdn-icons-png.flaticon.com/128/1163/1163451.png" height="50px"/>  &nbsp &nbsp &nbsp &nbsp
@@ -332,13 +364,25 @@
        </div>
     
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="villa-rating">
+        <span class="btn4">Quality rating
+         
+         <img src="https://cdn-icons-png.flaticon.com/128/1031/1031795.png" height="80px" alt="">
+        </span>
+         <br/>
+         <br/>
+        Booking.com rated the quality of this property as 5 out of 5 based on factors such as facilities, size, location and services provided.
+    </div>
 
     
    
     <br/>
     <br/>
     <Button class="btn2">Price</Button>
-    -In range of rs.50000 to rs.60000
+    -80 Lakh
 <br/><br/>
 
     <button class="btn3">Book Now</button>
