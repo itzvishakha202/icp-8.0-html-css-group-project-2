@@ -1,43 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* Header Section*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     margin: 0px;
     padding: 0px;
 }
-.navbar {
-    width: 100%;
-    height: 30px;
-   padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(30, 53, 65);
-    position: fixed;
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-   margin: 0 20px;
-    position: relative;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.navbar ul li::after {
-    content: '';
-    height: 3px;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-}
-
 .navbar ul li:hover::after {
     width: 100%;
 }
@@ -87,7 +53,7 @@
     margin-left: 40px;
     padding: 10px;
    height: 100px;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
   }
   .img-icon{
@@ -95,6 +61,7 @@
     width: 55px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 20px;
   }
   .img-desc{
     margin-left: 15px;
@@ -114,7 +81,7 @@
     margin-top: 50px;
     padding: 10px;
    height: 100px;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
   }
 
