@@ -12,8 +12,8 @@
     background-size: cover;
     background-position: center;
     font-weight: bold;
+    position: relative; 
 }
-
 .navbar {
     width: 100%;
     height: 30px;
@@ -51,6 +51,17 @@
 
 .navbar ul li:hover::after {
     width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
 }
 
 .content {
