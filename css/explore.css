@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(30, 53, 65);
-   
 }
 .navbar ul li {
     list-style: none;
@@ -60,7 +59,7 @@
   
 }
 .card{
-    height: 280px;
+    height: 260px;
     width: 300px;
     background-color: white;
     border-radius: 10px;
@@ -107,6 +106,10 @@ span{
     color: green;
     font-weight: bold;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .btn{
     background-color:  rgb(30, 53, 65);
     color: #ffffcc;
@@ -139,12 +142,37 @@ span{
     bottom: 0;
     width: 100%;
 }
-@media screen and (min-width : 720px ) and (max-width: 740px) {
+@media screen and (max-width: 720px){
     .card-container{
         padding: 5px;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-around;
+        align-items: center;
+       }
+       .card{
+        margin: 20px;
+        height: 210px;
+        width: 250px;
+       }
+       .info{
+        display: none;
+       }
+       .btn{
+        margin-top: 5px;
+        margin-bottom: 30px;
+       }
+       .footer{
+        display: none;
+       }
+  }
+
+@media screen and (min-width : 720px ) and (max-width: 741px) {
+    .card-container{
+        padding: 5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: start;
        }
        .card{
