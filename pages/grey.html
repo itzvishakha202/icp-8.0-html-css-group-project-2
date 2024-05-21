@@ -71,6 +71,8 @@
             
            
         }
+        
+        
         h4{
             margin-left: 400px;
 
@@ -80,7 +82,8 @@
             font-family: "Ubantu", sans-serif;
             color: white;
             font-size: 40px;
-            margin-top: 10px;
+            margin-top: 0.01px;
+           
             
         }
         span{
@@ -103,10 +106,7 @@
            
 
         }
-        .villa-block:hover{
-           box-shadow: 3px 4px 3px 4px lightgrey;
-           
-        }
+       
         .front{
             display: flex;
             margin: 20px;
@@ -138,6 +138,7 @@
             margin: 10px;
             padding: 20px;
             font-size: 18px;
+            cursor: pointer;
         
             
         }
@@ -148,22 +149,48 @@
         }
         .villa-photos{
         display: flex;
-        background-color: aliceblue;
+        background-color: lavenderblush;
         
         height: 504px;
-        width: 1134px;
+        width: 1140px;
         margin-left: 145px;
         margin-top: 20px;
-        border: 1px solid black;
+        border: 2px solid black;
         flex-wrap: wrap;
-        padding: 5px;
+        padding: 20px;
         justify-content: space-between;
+        
     }
     .ph1:hover{
             
-         border: 1px solid black;
+         
          cursor: pointer;
+         
+         transform: scale(1.2);
+         border-radius: 5px;
+         box-sizing: border-box;
+         transition: 0.7s;
+         
+         
+         
+        
     }
+    .villa-rating{
+        background-color: white;
+        border: 2px solid black;
+        height: 120px;
+        width: 1180px;
+        margin-left: 145px;
+        padding: 10px;
+        background-color: lemonchiffon;
+    }
+    .btn4{
+        color: black;
+        font-size: 30px;
+        display: inline-block;
+        
+    }
+   
     .main{
         
         font-size: 24px;
@@ -192,9 +219,93 @@
         font-size: 18px;
         border-radius: 10px;
         cursor: pointer;
+        margin-left: 2px;
+        
 
     }
-    .footer {
+    .bg5{
+        font-size: 20px;
+        color: black;
+    }
+    .btn3:hover{
+        transform: scale(1.2);
+        transition: 0.3s;
+    }
+    .near{
+        display: flex;
+        width: 1200px;
+        height: 235px;
+        border: black;
+        background-color: aquamarine;
+        margin-left: 10px;
+    }
+    .near1:hover{
+        transform: scale(1.2);
+        transition:0.4s;
+    }
+    .location{
+        color: black;
+        font-size: 17px;
+    }
+    .video{
+        display: inline-block;
+        margin-left: 145px;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        padding: 30px;
+    
+        
+
+    }
+    .v1{
+        border-radius: 10px;
+        border: none;
+        
+    }
+    .v1:hover{
+        cursor: pointer;
+       
+    }
+    
+    
+    .des{
+        color: black;
+        margin-left: 140px;
+    }
+    .p1{
+        color: black;
+
+    }
+    .p2{
+        color: blue;
+        font-size: 14px;
+    }
+    .p3{
+        color: white;
+    }
+    .btn5{
+        background-color: white;
+        color: blue;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .btn5:hover{
+        transform: scale(1.2);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .p5{
+        color: black;
+        font-size: 17px;
+        
+      
+    }
+    .p6{
+        color: black;
+        font-size: 14px;
+    }
+    
+    .footer{
     background-color: rgb(30, 53, 65);
     color: white;
     text-align: center;
@@ -236,18 +347,21 @@
             <div class="navbar">
 
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/explore.html">explore</a></li>
-                    <li><a href="./pages/ourteam.html">Members</a></li>
-                    <li><a href="./pages/contact.html">Contact Us</a></li>
-                    <li><a href="./pages/review.html">Feedback</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/explore.html">explore</a></li>
+                    <li><a href="../pages/ourteam.html">Members</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
+                    <li><a href="../pages/review.html">Feedback</a></li>
     
                 </ul>
             </div>
     </header>
     
     <h2>Welcome to villa resort <br/> <span>Discover our world class hotel and restaurant resort</span> <br/> <span class="head"> <img src="https://cdn-icons-png.flaticon.com/128/149/149059.png" height="24px" alt="">
-        Life of Saffron | Just Enjoy guys | <br/> <span class="main">Unforgettable living begins here.</span></span></h2>
+        Life of Saffron | Just Enjoy guys | <br/> <span class="main">Unforgettable living begins here. <br/></span></span> 
+        <span class="p3">HURRY! <br/> GET THE BEST VILLA FOR <BR/> YOU</span><br/>
+        <a href="https://www.saffronstays.com/"><button class="btn5">Log in/Sign up</button></a>
+    </h2>
     <button class="villa-btn">Appartment</button>
     
     <h4> <img src="https://cdn-icons-png.flaticon.com/128/14831/14831599.png" height="40px"> 25, 1 Khandala Valley, Khopoli Pali Road, Chavani, MH 410203, 410203</h4>
@@ -255,20 +369,32 @@
     <div class="villa-description">
         SaffronStays is a micro-hospitality collective, operating a network of over 250+ private leisure homes, all hand-picked and curated for an enhanced holiday experience. Set in untouched and tranquil locales, our lavish stays bring with them the warmth and comfort of a home, while maintaining the standards of a hotel. Starting out simply as a platform of homestays, we now partner with Home Owners and monetise their estates by turning their idle investments into earning assets. Through our hospitality operations, branding, and marketing efforts, we help Home Owners rent out their homes hassle-free. Our screened Guests can enjoy the luxury of certainty when they stay with us. With caretaking staff managing each home, local cooks dishing out mouth- watering meals, and Concierge services throughout their stay. Guests can take every holiday with ease. With SaffronStays, vacations will always be enriching experiences that bring loved ones together and fill one's soul with happiness!
         <br/>
-        Earl Grey, a pet-friendly 3-bedroom pool villa nestled near Khopoli-Pali Road with a splendid pool. - Earl Grey has an open floor plan, air-conditioning in every room, a pool table, and floor-to-ceiling glass windows that connect the indoors with the outdoors. - Lounge by the pool, sip your coffee on the expansive balconies, or have a movie night in the entertainment room, there's something here for everyone. - A true haven for your furry friends, this is a pet-friendly villa. There will be a refundable security deposit of INR 5000 per room collected Pet Charges: Rs.1000/- per pet per day. Pets are allowed in the swimming pool.<br/>
-        <h5> <img src="https://cdn-icons-png.flaticon.com/128/149/149059.png" height="20px" alt="">Nearest popular locations</h5>
-        Tiger Point <br/>
-        Our Rosary Garden <br/>
-        Lohgad Darshan Udyan <br/>
-        Lion Point <br/>
+        Earl Grey, a pet-friendly 3-bedroom pool villa nestled near Khopoli-Pali Road with a splendid pool. - Earl Grey has an open floor plan, air-conditioning in every room, a pool table, and floor-to-ceiling glass windows that connect the indoors with the outdoors. - Lounge by the pool, sip your coffee on the expansive balconies, or have a movie night in the entertainment room, there's something here for everyone. - A true haven for your furry friends, this is a pet-friendly villa. There will be a refundable security deposit of INR 5000 per room collected Pet Charges: Rs.1000/- per pet per day. Pets are allowed in the swimming pool.<br/><br/>
+        <span class="bg5"> <img src="https://cdn-icons-png.flaticon.com/128/149/149059.png" height="20px" alt="">Search nearest places</span> <br/><br/><br/> &nbsp &nbsp &nbsp
+        <span class="location">Della Resort</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <span class="location">Lonavala Lake</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <span class="location">Lion Point</span>
+        <div class="near">
+             <div class="near1">
+                <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2017/04/11.jpg" height="240px" />
+             </div>
+             <div class="near1">
+                <img src="https://pawnacamp.com/wp-content/uploads/2019/07/Lonavala-lake.jpg" height="240px"/>
+             </div>
+             <div class="near1">
+                <img src="https://i.ytimg.com/vi/xwdPhmsEBoM/maxresdefault.jpg" height="240px"/>
+             </div>
+             </div>
+        <br/>
+        <br/>
         <br/>
     </div>
     <div class="villa-block">
         <div class="front">
-            Total Flat Space &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <span class="bg">1000 sq.ft</span>
+            Total Flat Space &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <span class="bg">6k sq.ft</span>
         </div>
         <div class="front">
-            Flat No  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <span class="bg">3</span>
+            Total Floors  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp   <span class="bg">2</span>
         </div>
         <div class="front">
             Number of rooms  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <span class="bg">12</span>
@@ -286,7 +412,7 @@
     <div class="block1">
          <div class="sub-block">
             <img src="https://cdn-icons-png.flaticon.com/128/2605/2605150.png" height="50px"/> &nbsp &nbsp &nbsp &nbsp
-            <span class="text">800 sq.ft</span>
+            <span class="text">4k sq.ft</span>
          </div>
          <div class="sub-block">
             <img src="https://cdn-icons-png.flaticon.com/128/1163/1163451.png" height="50px"/>  &nbsp &nbsp &nbsp &nbsp
@@ -332,16 +458,43 @@
        </div>
     
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="villa-rating">
+        <span class="btn4">Quality rating
+         
+         <img src="https://cdn-icons-png.flaticon.com/128/1031/1031795.png" height="80px" alt="">
+        </span>
+         <br/>
+         <br/>
+        Booking.com rated the quality of this property as 5 out of 5 based on factors such as facilities, size, location and services provided.
+    </div>
+    <br/>
+    <br/>
+    <span class="des">Check Out This Gorgeous Villa For A Family Gataway, Just 2 Hours From Mumbai.</span>
+    <br/>
+    <br/>
+    <div class="video">
+    <iframe class="v1" width="360" height="220" src="https://www.youtube.com/embed/l-htKp9K4jg?si=aFXTMo_9j9snvdLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    &nbsp &nbsp &nbsp  <span class="p1">SaffronStays - Luxury Family Villas In Khandala | Curly Tales</span> <br/>
+     Three luxury villas by SaffronStays come together to make for the perfect family getaway in the lush landscape of Khandala. #SaffronStays #CurlyTales #Sponsored &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <span class="p2">Book Now</span> - <a href="https://www.saffronstays.com/">www.saffronstays.com</a> Subscribe Now http://bit.ly/CurlyTales For daily updates: Follow us on Facebook http://bit.ly/2PEaDGT Follow us on Instagram http://bit.ly/2NQcckE For ...
+    </div>
 
     
    
     <br/>
     <br/>
     <Button class="btn2">Price</Button>
-    -In range of rs.50000 to rs.60000
+    -80 Lakh
 <br/><br/>
 
-    <button class="btn3">Book Now</button>
+   <a href="https://www.saffronstays.com/"> <button  class="btn3"> Book Now</button></a>
+   <br/>
+   <br/>
+   <span class="p6"> <a class="p5">SaffronStays</a> <br/> <img src="https://cdn-icons-png.flaticon.com/128/15468/15468157.png" height="30px"/> Where Families Bond</span>
+
 
     <br/>
     <br/>
