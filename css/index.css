@@ -53,17 +53,6 @@
     width: 100%;
 }
 
-.logo {
-    position: absolute;
-    top: 20px;
-    right: 20px; 
-}
-
-.logo img {
-    width: 100px; 
-    height: auto;
-}
-
 .content {
     position: absolute;
     top: 40%;
