@@ -14,6 +14,12 @@
     font-weight: bold;
     position: relative; 
 }
+.villa-name{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 40px;
+}
 .navbar {
     width: 100%;
     height: 30px;
