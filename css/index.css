@@ -266,6 +266,16 @@ button:hover {
     justify-content: center;
     gap: 20px;
 }
+
+.review-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 /* Footer styles */
 .footer {
     background-color: rgb(30, 53, 65);
