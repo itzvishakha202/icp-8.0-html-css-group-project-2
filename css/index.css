@@ -197,6 +197,15 @@ button:hover {
     background-color: rgb(30, 53, 65);
     margin-bottom: 20px;
 }
+.offer-btn:hover {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 160px;
+    border: 2px solid #009688;
+    background-color: #009688;
+    margin-bottom: 20px;
+}
 .offer-btn a {
     color: white;
     text-decoration: none;
