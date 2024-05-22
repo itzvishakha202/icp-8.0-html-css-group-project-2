@@ -183,6 +183,7 @@ a{
        }
        .card{
         margin: 5px;
+        margin-bottom: 20px;
        }
   }
 @media screen and (min-width: 740px) and (max-width: 1092px) {
