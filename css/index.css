@@ -243,6 +243,7 @@ button:hover {
     width: 150px;
     margin-left: 35px;
     border: 2px solid #ddd;
+    background-color:  rgb(30, 53, 65);
     padding: 10px;
 }
 
@@ -261,6 +262,7 @@ button:hover {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
+    color:#009688;
     margin-left: 25px;
 }
 
