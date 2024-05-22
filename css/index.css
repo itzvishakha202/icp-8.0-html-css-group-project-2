@@ -281,6 +281,12 @@ button:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.review-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
 /* Footer styles */
 .footer {
     background-color: rgb(30, 53, 65);
