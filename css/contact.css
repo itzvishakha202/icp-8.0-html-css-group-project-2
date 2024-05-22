@@ -32,7 +32,7 @@
   .head-sec{
     margin-left: 50px;
     font-size: 35px;
-    font-family: "Pacifico", cursive;
+    font-family: "Ubuntu", sans-serif;
   }
   .head-info-l{
     margin-bottom: 50px;
@@ -65,8 +65,9 @@
   }
   .img-desc{
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 35px;
     text-decoration: none;
+    font-size: 22px;
   }
   .p-tag{
     margin-top: 40px;

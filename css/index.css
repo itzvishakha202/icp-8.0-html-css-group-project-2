@@ -12,8 +12,8 @@
     background-size: cover;
     background-position: center;
     font-weight: bold;
+    position: relative; 
 }
-
 .navbar {
     width: 100%;
     height: 30px;
@@ -35,7 +35,8 @@
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: "Pacifico", cursive;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
 }
 
 .navbar ul li::after {
@@ -105,6 +106,7 @@ button:hover {
     margin-top: 10px;
     padding-bottom: 0;
     margin-bottom: 10px;
+    color: rgb(30, 53, 65);
 }
 
 
@@ -200,10 +202,99 @@ button:hover {
     text-decoration: none;
 }
 .end-line{
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
     font-family: "Ubuntu", sans-serif;
     font-size: 20px;
+}
+
+.destination {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.head-name3{
+    color: rgb(30, 53, 65);
+}
+.destination-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.d-img {
+    height: 150px;
+    margin-left: 35px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+.d-img:hover {
+    height: 180px;
+    margin-left: 35px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+.d-img img {
+    display: block;
+}
+.d-name a {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+
+.reviews-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Pacifico", cursive;
+    color: rgb(30, 53, 65);
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-box {
+    background-color: white;
+    border: 3px solid rgb(30, 53, 65);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
+}
+
+.review-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-size: 14px;
+    color: #555;
 }
 
 /* Footer styles */
@@ -216,5 +307,124 @@ button:hover {
     bottom: 0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media query for screens up to 600px width */
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    .navbar ul {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navbar ul li {
+        margin: 10px 0;
+    }
+    
+    .content {
+        position: static;
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .content .p-heading {
+        font-size: 40px;
+    }
+    
+    .description {
+        margin: 10px;
+    }
+    
+    .home-info {
+        padding: 10px;
+    }
+    
+    .head-name2 {
+        font-size: 20px;
+    }
+    
+    .head-subtitle {
+        font-size: 16px;
+    }
+    
+    .offer-item {
+        width: 100%;
+    }
+    
+    .end-line {
+        margin: 10px;
+    }
+}
+
+/* Media query for screens between 600px and 768px width */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .content {
+        margin-top: 200px;
+    }
+    
+    .content .p-heading {
+        font-size: 50px;
+    }
+    
+    .description {
+        margin: 20px;
+    }
+    
+    .offer-item {
+        width: 45%;
+    }
+    
+    .head-name2 {
+        font-size: 22px;
+    }
+    
+    .head-subtitle {
+        font-size: 17px;
+    }
+    
+    .offer-description {
+        font-size: 13px;
+    }
+}
+
+/* Media query for screens between 769px and 992px width */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .content {
+        margin-top: 250px;
+    }
+    
+    .content .p-heading {
+        font-size: 55px;
+    }
+    
+    .description {
+        margin: 30px;
+    }
+    
+    .offer-item {
+        width: 30%;
+    }
+    
+    .head-name2 {
+        font-size: 26px;
+    }
+    
+    .head-subtitle {
+        font-size: 18px;
+    }
+    
+    .offer-description {
+        font-size: 14px;
+    }
 }
 
