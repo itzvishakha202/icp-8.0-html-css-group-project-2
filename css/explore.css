@@ -149,6 +149,9 @@ a{
     width: 100%;
 }
 @media screen and (max-width: 720px){
+    .navbar ul li{
+        margin: 0 10px;
+    }
     .card-container{
         padding: 5px;
         flex-direction: row;
