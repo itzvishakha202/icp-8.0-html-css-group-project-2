@@ -249,6 +249,11 @@ button:hover {
     text-decoration: none;
 }
 
+.reviews-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
 /* Footer styles */
 .footer {
     background-color: rgb(30, 53, 65);
