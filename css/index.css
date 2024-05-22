@@ -106,6 +106,7 @@ button:hover {
     margin-top: 10px;
     padding-bottom: 0;
     margin-bottom: 10px;
+    color: rgb(30, 53, 65);
 }
 
 
@@ -215,7 +216,9 @@ button:hover {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
+.head-name3{
+    color: rgb(30, 53, 65);
+}
 .destination-img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -233,6 +236,13 @@ button:hover {
     padding: 10px;
 }
 
+.d-img:hover {
+    height: 180px;
+    margin-left: 35px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
 .d-img img {
     display: block;
 }
@@ -240,6 +250,51 @@ button:hover {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
+}
+
+.reviews-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Pacifico", cursive;
+    color: rgb(30, 53, 65);
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-box {
+    background-color: white;
+    border: 3px solid rgb(30, 53, 65);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
+}
+
+.review-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-size: 14px;
+    color: #555;
 }
 
 /* Footer styles */
