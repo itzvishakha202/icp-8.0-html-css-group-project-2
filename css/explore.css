@@ -73,12 +73,12 @@
     box-shadow: 2px 5px 8px gray;
 }
 .card-img{
-    height: 120px;
-    width:220px;
-    padding: 5px;
+    height: 140px;
+    width:300px;
+    padding: 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 10px;
 }
 .villa-name{
