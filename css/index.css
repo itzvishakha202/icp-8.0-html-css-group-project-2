@@ -261,7 +261,7 @@ button:hover {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
-    text-align: center;
+    margin-left: 25px;
 }
 
 .reviews-section {
