@@ -161,6 +161,12 @@ a{
         height: 210px;
         width: 250px;
        }
+       .card-img{
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+       }
        .info{
         display: none;
        }
