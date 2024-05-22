@@ -233,6 +233,13 @@ button:hover {
     padding: 10px;
 }
 
+.d-img:hover {
+    height: 180px;
+    margin-left: 35px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
 .d-img img {
     display: block;
 }
