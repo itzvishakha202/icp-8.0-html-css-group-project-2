@@ -8,11 +8,17 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: url(./../image/1.jpeg);
+    background-image: url(./../images/header-image.jpeg);
     background-size: cover;
     background-position: center;
     font-weight: bold;
     position: relative; 
+}
+.villa-name{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 40px;
 }
 .navbar {
     width: 100%;
@@ -197,6 +203,15 @@ button:hover {
     background-color: rgb(30, 53, 65);
     margin-bottom: 20px;
 }
+.offer-btn:hover {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 160px;
+    border: 2px solid #009688;
+    background-color: #009688;
+    margin-bottom: 20px;
+}
 .offer-btn a {
     color: white;
     text-decoration: none;
@@ -221,7 +236,7 @@ button:hover {
 }
 .destination-img {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
     max-width: 1000px;
@@ -231,13 +246,16 @@ button:hover {
 
 .d-img {
     height: 150px;
+    width: 150px;
     margin-left: 35px;
-    border: 2px solid #ddd;
+    border: 8px solid #ddd;
+    background-color:  rgb(30, 53, 65);
     padding: 10px;
 }
 
 .d-img:hover {
-    height: 180px;
+    height: 160px;
+    width: 160px;
     margin-left: 35px;
     border: 2px solid #ddd;
     padding: 10px;
@@ -250,6 +268,8 @@ button:hover {
     font-size: 15px;
     font-family: "Ubuntu", sans-serif;
     text-decoration: none;
+    color:#009688;
+    margin-left: 25px;
 }
 
 .reviews-section {
