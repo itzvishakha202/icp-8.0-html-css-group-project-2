@@ -37,7 +37,6 @@
     margin: 0 20px;
     position: relative;
 }
-
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
@@ -48,7 +47,6 @@
 .navbar ul li::after {
     content: '';
     height: 3px;
-    width: 0%;
     background: #009688;
     position: absolute;
     left: 0;
@@ -58,21 +56,31 @@
 .navbar ul li:hover::after {
     width: 100%;
 }
-
+.navbar ul li a.active::after {
+    width: 100%; 
+    content: '';
+    height: 3px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
 .content {
     position: absolute;
     top: 40%;
     font-size: 25px;
-    margin-top: 290px;
+    margin-top: 240px;
     color: #dbd8d6;
   font-family: "Pacifico", cursive;
 }
-
+.content .p-subtitle{
+    font-family:Pacifico,cursive; 
+    font-size: 55px;
+}
 .content .p-heading {
     font-size: 60px;
     color: #dbd8d6;
   font-family: "Pacifico", cursive;
-  
 }
 
 button {
@@ -336,6 +344,7 @@ button:hover {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        position: relative;
     }
     
     .navbar ul {
@@ -350,101 +359,286 @@ button:hover {
     .navbar ul li {
         margin: 10px 0;
     }
-    
+    .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 40px;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .content {
-        position: static;
-        margin-top: 150px;
+        position: absolute;
+        top: 40%;
+        font-size: 25px;
+        margin-top: 240px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .content .p-subtitle{
+        font-family:Pacifico,cursive; 
+        font-size: 35px;
+    }
+    .content .p-heading {
+        font-size: 40px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .destination {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .head-name3{
+        color: rgb(30, 53, 65);
+    }
+    .destination-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
         text-align: center;
     }
     
-    .content .p-heading {
-        font-size: 40px;
-    }
-    
-    .description {
-        margin: 10px;
-    }
-    
-    .home-info {
+    .d-img {
+        height: 180px;
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        background-color:  rgb(30, 53, 65);
         padding: 10px;
     }
     
-    .head-name2 {
+    .d-img:hover {
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        padding: 10px;
+    }
+    
+    .d-img img {
+        display: block;
+    }
+    .d-name a {
         font-size: 20px;
-    }
-    
-    .head-subtitle {
-        font-size: 16px;
-    }
-    
-    .offer-item {
-        width: 100%;
-    }
-    
-    .end-line {
-        margin: 10px;
+        font-family: "Ubuntu", sans-serif;
+        text-decoration: none;
+        color:#009688;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 /* Media query for screens between 600px and 768px width */
 @media screen and (min-width: 600px) and (max-width: 768px) {
-    .content {
-        margin-top: 200px;
+    .navbar {
+        width: 100%;
+        height: 70px;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(30, 53, 65);
+        position: relative;
+    }
+    .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 30px;
+        color: #fff;
+        margin-right: 10px;
     }
     
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px 50px;
+        position: relative;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+    }
+    
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+    }
+    
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    .navbar ul li a.active::after {
+        width: 100%; 
+        content: '';
+        height: 3px;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
+    .content {
+        position: absolute;
+        top: 40%;
+        font-size: 25px;
+        margin-top: 260px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .content .p-subtitle{
+        font-family:Pacifico,cursive; 
+        font-size: 40px;
+    }
     .content .p-heading {
         font-size: 50px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .destination {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .head-name3{
+        color: rgb(30, 53, 65);
+    }
+    .destination-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
     }
     
-    .description {
-        margin: 20px;
+    .d-img {
+        height: 150px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        background-color:  rgb(30, 53, 65);
+        padding: 10px;
     }
     
-    .offer-item {
-        width: 45%;
+    .d-img:hover {
+        height: 160px;
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        padding: 10px;
     }
     
-    .head-name2 {
-        font-size: 22px;
+    .d-img img {
+        display: block;
     }
-    
-    .head-subtitle {
-        font-size: 17px;
-    }
-    
-    .offer-description {
-        font-size: 13px;
+    .d-name a {
+        font-size: 15px;
+        font-family: "Ubuntu", sans-serif;
+        text-decoration: none;
+        color:#009688;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 /* Media query for screens between 769px and 992px width */
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 30px;
+        color: #fff;
+        margin-right: 10px;
+    }
+    .navbar {
+        width: 100%;
+        height: 40px;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(30, 53, 65);
+        position: relative;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px 10px;
+        position: relative;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+    }
+    
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+    }
+    
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    .navbar ul li a.active::after {
+        width: 100%; 
+        content: '';
+        height: 3px;
+        background: #009688;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+    }
     .content {
-        margin-top: 250px;
+        position: absolute;
+        top: 40%;
+        font-size: 25px;
+        margin-top: 260px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
     }
-    
+    .content .p-subtitle{
+        font-family:Pacifico,cursive; 
+        font-size: 45px;
+    }
     .content .p-heading {
-        font-size: 55px;
+        font-size: 50px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
     }
     
-    .description {
-        margin: 30px;
-    }
+}
+
+/* Media query for screens between 993px and 1200px width */
+@media screen and (min-width: 769px) and (max-width: 992px) {
     
-    .offer-item {
-        width: 30%;
-    }
-    
-    .head-name2 {
-        font-size: 26px;
-    }
-    
-    .head-subtitle {
-        font-size: 18px;
-    }
-    
-    .offer-description {
-        font-size: 14px;
-    }
 }
 
