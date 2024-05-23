@@ -190,6 +190,16 @@ a{
        .footer{
         display: none;
        }
+       .villa-n{
+        font-size: 20px;
+        margin-right: 5px;
+       }
+       .navbar ul li {
+        margin-right: 2px;
+       }
+       .navbar ul li a {
+        font-size: 15px;
+       }
   }
 
 @media screen and (min-width : 720px ) and (max-width: 741px) {
