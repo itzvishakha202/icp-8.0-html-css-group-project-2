@@ -506,6 +506,56 @@ button:hover {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .destination {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .head-name3{
+        color: rgb(30, 53, 65);
+    }
+    .destination-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .d-img {
+        height: 150px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        background-color:  rgb(30, 53, 65);
+        padding: 10px;
+    }
+    
+    .d-img:hover {
+        height: 160px;
+        width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        padding: 10px;
+    }
+    
+    .d-img img {
+        display: block;
+    }
+    .d-name a {
+        font-size: 15px;
+        font-family: "Ubuntu", sans-serif;
+        text-decoration: none;
+        color:#009688;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Media query for screens between 769px and 992px width */
