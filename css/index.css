@@ -73,7 +73,10 @@
     color: #dbd8d6;
   font-family: "Pacifico", cursive;
 }
-
+.content .p-subtitle{
+    font-family:Pacifico,cursive; 
+    font-size: 55px;
+}
 .content .p-heading {
     font-size: 60px;
     color: #dbd8d6;
@@ -341,6 +344,7 @@ button:hover {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        position: relative;
     }
     
     .navbar ul {
@@ -355,39 +359,79 @@ button:hover {
     .navbar ul li {
         margin: 10px 0;
     }
-    
+    .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 40px;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .content {
-        position: static;
-        margin-top: 150px;
+        position: absolute;
+        top: 40%;
+        font-size: 25px;
+        margin-top: 240px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .content .p-subtitle{
+        font-family:Pacifico,cursive; 
+        font-size: 35px;
+    }
+    .content .p-heading {
+        font-size: 40px;
+        color: #dbd8d6;
+      font-family: "Pacifico", cursive;
+    }
+    .destination {
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .head-name3{
+        color: rgb(30, 53, 65);
+    }
+    .destination-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
         text-align: center;
     }
     
-    .content .p-heading {
-        font-size: 40px;
-    }
-    
-    .description {
-        margin: 10px;
-    }
-    
-    .home-info {
+    .d-img {
+        height: 180px;
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        background-color:  rgb(30, 53, 65);
         padding: 10px;
     }
     
-    .head-name2 {
+    .d-img:hover {
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 8px solid #ddd;
+        padding: 10px;
+    }
+    
+    .d-img img {
+        display: block;
+    }
+    .d-name a {
         font-size: 20px;
-    }
-    
-    .head-subtitle {
-        font-size: 16px;
-    }
-    
-    .offer-item {
-        width: 100%;
-    }
-    
-    .end-line {
-        margin: 10px;
+        font-family: "Ubuntu", sans-serif;
+        text-decoration: none;
+        color:#009688;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
