@@ -78,7 +78,7 @@
     padding: 5px;
     border: 1px solid black;
    margin-bottom: 30px;
-   margin-right: 45px;
+   margin-right: 100px;
 }
 .card:hover{
     box-shadow: 2px 5px 8px gray;
@@ -252,7 +252,6 @@ a{
        }
        .card{
         margin: 20px;
-        margin-right: ;
        }
   }
   @media screen and (min-width: 1157px) and (max-width: 1390px) {
