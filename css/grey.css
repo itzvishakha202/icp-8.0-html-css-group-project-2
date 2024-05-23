@@ -63,6 +63,7 @@ body{
         .villa-description{
             margin-left: 100px;
             margin-right: 80px;
+           
         }
         
         
@@ -115,6 +116,7 @@ body{
         .bg{
             font-size: 25px;
             color: black;
+            margin-left: 900px;
         }
         .block1{
             display: block;
@@ -225,11 +227,12 @@ body{
     }
     .near{
         display: flex;
-        width: 1200px;
-        height: 235px;
+        width: 1250px;
+        height: 273px;
         border: black;
-        background-color: aquamarine;
+        background-color: white;
         margin-left: 10px;
+        
     }
     .near1:hover{
         transform: scale(1.2);
@@ -238,6 +241,7 @@ body{
     .location{
         color: black;
         font-size: 17px;
+        
     }
     .video{
         display:block;
@@ -347,13 +351,132 @@ body{
     font-size: 25px;
     margin-left: 600px;
 }
+.background-img{
+    width: 100%;
+    height: 800px;
+}
 
 
     /* small divices */
     @media screen and (min-width: 150px) and (max-width: 600px) {
-
+         .background-img{
+            width: 100%;
+            height: 600px;
+            
+        }
+        .background-text{
+            margin-left: 50px;
+            font-size: 27px;
           
         }
+        .background-text1{
+            margin-left: 50px;
+            font-size: 27px;
+        }
+        .background-text2{
+            margin-left: 50px;
+            font-size: 25px;
+        }
+        .background-text3{
+            margin-left: 50px;
+            font-size: 24px;
+            margin-left: 90px;
+        }
+        .background-text5{
+           margin-left: 100px;
+           font-size: 24px;
+           margin-left: 250px;
+        }
+        .background-text6{
+          margin-left: 50px;
+          font-size: 24px;
+          margin-left: 130px;
+        }
+        .navbar ul li{
+            margin: 0 7px;
+        }
+        .navbar ul li a{
+            font-size: 17px;
+        }
+        h4{
+            margin-left: 20px;
+        }
+        h3{
+            margin-left: 20px;
+        }
+        .villa-description{
+            margin-left: 20px;
+        }
+       .near{
+        flex-direction: column;
+       }
+        .villa-block{
+            margin-top: 480px;
+            margin-left: 20px;
+            width: 500px;
+            
+            }
+        .block1{
+            margin-left: 20px;
+            
+        }
+        .front{
+            padding: 5px;
+        }
+        .bg{
+           margin-left: 180px;
+           font-size: 22px;
+        }
+        .near1:hover{
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
+        .block1{
+            width: 500px;
+        }
+        .main1{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .villa-photos{
+            width: 500px;
+            height: 750px;
+            margin-left: 10px;
+        }
+        .ph1{
+            width: 250px;
+        }
+        .villa-rating{
+            margin-left: 10px;
+            width: 520px;
+            height: 130px;
+        }
+        .des{
+            margin-left: 10px;
+        }
+        .vdo{
+            margin-left: 120px;
+            width: 250px;
+        }
+        .video{
+            width: 480px;
+            margin-left: 10px;
+        }
+        .btn3{
+            margin-left: 234px;
+            padding: 10px 10px;
+            font-size: 15px;
+        }
+        .btn3:hover{
+            transform: scale(1);
+            transition: 0.2s;
+        }
+        .footer{
+            font-size: 17px;
+        }
+        }
+
+        
         /* normal device */
         @media screen and (min-width: 601px) and (max-width:768px) {
             
