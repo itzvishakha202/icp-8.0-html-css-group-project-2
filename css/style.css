@@ -37,7 +37,15 @@
     left: 0;
     bottom: -10px;
 }
-
+.navbar ul li a.active::after {
+    width: 100%; 
+    content: '';
+    height: 3px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
 .navbar ul li:hover::after {
     width: 100%;
 }
