@@ -273,7 +273,11 @@ p{
     background-color: pink;
     zoom: 1;
 }
-    
+    table,th,td{
+        border: 1px solid;
+        padding: 8px;
+        
+    }
 .footer {
     background-color: rgb(30, 53, 65);
     color: white;
