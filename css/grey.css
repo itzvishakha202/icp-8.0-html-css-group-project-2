@@ -108,6 +108,10 @@ body{
             flex-wrap: wrap;
             
         }
+        .front:hover{
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
         .bg{
             font-size: 25px;
             color: black;
@@ -132,6 +136,11 @@ body{
         
             
         }
+        .sub-block:hover{
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
+        
         .text{
             margin-left: 10px;
             color: black;
