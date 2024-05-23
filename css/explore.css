@@ -204,6 +204,13 @@ a{
         margin: 5px;
         margin-bottom: 20px;
        }
+       .villa-n{
+        font-size: 25px;
+        margin-right: 20px;
+       }
+       .navbar ul li {
+        margin-right: 10px;
+       }
   }
 @media screen and (min-width: 740px) and (max-width: 1092px) {
     .card-container{
