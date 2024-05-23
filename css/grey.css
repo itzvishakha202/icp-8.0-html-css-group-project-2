@@ -170,7 +170,7 @@ body{
         border: 2px solid black;
         height: 120px;
         width: 1180px;
-        margin-left: 145px;
+        margin-left: 135px;
         padding: 10px;
         background-color: lemonchiffon;
     }
@@ -185,7 +185,7 @@ body{
     
     .main1{
         color: black;
-        margin-left: 140px;
+        margin-left: 100px;
         font-size: 25px;
     }
     .btn2{
@@ -231,8 +231,9 @@ body{
         font-size: 17px;
     }
     .video{
-        display: inline-block;
-        margin-left: 145px;
+        display:block;
+        margin-left: 146px;
+        margin-right: 147px;
         background-color: whitesmoke;
         border: 1px solid black;
         padding: 30px;
@@ -256,10 +257,7 @@ body{
         margin-left: 140px;
         font-size: 20px;
     }
-    .p1{
-        color: black;
-
-    }
+    
     
     
     .p5{
@@ -313,7 +311,8 @@ body{
    
    .vdo{
     height: 200px;
-    width: 200px;
+    width: 300px;
+    margin-left: 380px;
    }
     .footer{
     background-color: rgb(30, 53, 65);
