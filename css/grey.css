@@ -247,13 +247,12 @@ body{
     .video{
         display:block;
         margin-left: 146px;
-        margin-right: 150px;
+        margin-right: 185px;
         background-color: whitesmoke;
         border: 1px solid black;
         padding: 30px;
     
         
-
     }
     .v1{
         border-radius: 10px;
