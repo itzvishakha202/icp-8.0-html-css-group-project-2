@@ -37,7 +37,6 @@
     margin: 0 20px;
     position: relative;
 }
-
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
@@ -48,7 +47,6 @@
 .navbar ul li::after {
     content: '';
     height: 3px;
-    width: 0%;
     background: #009688;
     position: absolute;
     left: 0;
@@ -58,12 +56,20 @@
 .navbar ul li:hover::after {
     width: 100%;
 }
-
+.navbar ul li a.active::after {
+    width: 100%; 
+    content: '';
+    height: 3px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
 .content {
     position: absolute;
     top: 40%;
     font-size: 25px;
-    margin-top: 290px;
+    margin-top: 240px;
     color: #dbd8d6;
   font-family: "Pacifico", cursive;
 }
@@ -72,7 +78,6 @@
     font-size: 60px;
     color: #dbd8d6;
   font-family: "Pacifico", cursive;
-  
 }
 
 button {
