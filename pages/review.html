@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>review</title>
-    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/feedback.css">
 </head>
 <body>
     <div class="navbar">
@@ -18,15 +18,32 @@
 
         </ul>
     </div>
+</header>
+</head>
+<body>
 
-<h1> write your content</h1>
+    <div class="container">
+        <div class="feedback-form">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name" class="label">Name :</label>
+                <input type="text" id="name" name="name" required class="finput" placeholder="Enter your name">
 
-<h1> write your content</h1>
-<h1> write your content</h1>
-<h1> write your content</h1>
-<h1> write your content</h1>
+                <label for="phno" class="label">Phone Number :</label>
+                <input type="tel" id="phno" placeholder="+91(000)000 0000" class="finput">
 
-<
+                <label for="email" class="label">Email :</label>
+                <input type="email" id="email" name="email" required class="finput" placeholder="abc@xyz">
+
+                <label class="label">Overall Experience</label>
+                <label for="feedback">Feedback :</label><br>
+                <textarea id="feedback" name="feedback" rows="4" required class="feedback" placeholder="Start typing here..."></textarea><br>
+
+                <button type="submit" class="btn">Submit</button>
+
+            </form>
+        </div>
+</div>
 
     <div class="footer">
         <p>&copy; 2024 Dream Villa Escapes. All rights reserved.</p>
