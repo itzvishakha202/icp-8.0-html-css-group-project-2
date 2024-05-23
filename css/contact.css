@@ -20,7 +20,7 @@
   }
   .section{
     width: 100%;
-    height: 1100px;
+   height: 1100px;
 
   }
   .section-heading {
@@ -49,7 +49,7 @@
     background-color: #f6f6f6;
     display:flex;
     border: 1px solid black;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 3px 2px  rgba(0, 0, 0, 0.15);
     margin-left: 40px;
     padding: 10px;
    height: 100px;
@@ -57,7 +57,7 @@
     border-radius: 5px;
   }
   .img-icon{
-    height: 55px;
+    height: 50px;
     width: 55px;
     margin-top: auto;
     margin-bottom: auto;
@@ -160,4 +160,49 @@
   width: 100%;
   height: 30px;
   bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  /* Add your CSS rules here */
+}
+
+/* Media query for screens between 600px and 768px width */
+@media screen and (max-width: 768px) {
+  .section{
+    height: 1500px;
+  }
+  .background-text{
+    margin-top: -20px;
+
+  }
+  .left-container{
+    width: 0%;
+  }
+  .head-info-l{
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+  .head-sec{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .phone-sec{
+    margin-top: 70px;
+  }
+  .img-icon{
+    height: 40px;
+
+  }
+  .email-sec{
+    margin-top: 15px;
+
+  }
+  .right-container{
+    width: 100%;
+    
+  }
+  .head-info-r{
+    margin-top: 480px;
+  }
+
 }

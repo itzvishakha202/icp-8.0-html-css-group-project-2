@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url('./../images/sky.jpg');
+    background-size: cover;
+    background-clip: border-box;    
+}
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* Header Section*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -19,20 +24,26 @@ img{
 marquee {
     margin-top: 30px;
     text-align: center;
-    color:  rgb(7, 75, 111);
+    color:  rgb(236, 197, 197);
     font-size: large;
+}
+table,th,td{
+         border: 1px solid;
+       padding: 6px;
+     color: black;
+     box-shadow: 2px 2px 2px rgb(83, 79, 79);
 }
 h1{
     margin-top: 20px;
     text-align: end;
-    color: darkgreen;
+    color: wheat;
     font-size: xx-large;
     text-shadow: 2px 2px 2px   #009688;
     border-radius: 2px;
 }
 .nav-img{
-    height:50px;
-     width:50px;
+    height:15px;
+     width:20px;
 }
 .center{
     align-content: center;
@@ -87,15 +98,15 @@ h3{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    font-size: larger;
+    font-size: x-large;
 
 }
 .info {
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 40px;
-    font-size: large;
+    font-size: x-large;
 
     
 }
@@ -196,19 +207,6 @@ ul{
   margin-bottom: 50px; 
   
 }
-.sheet1{
-    font-family: "Briem Hand", cursive;
-    height: 300px;
-    width: 500px;
-    background-color: #b9d8ed;
-    border: 2px solid white;
-    /*margin-top: 80px; */
-    box-shadow: 2px 2px 2px 2px gray;
-   border-radius: 1px;
-   align-content: center;
-     margin-left: auto;
-   margin-right: auto; 
-}
 @media screen and (min-width:500px) and (max-width:1000px){
 .sheet{
     background-color: rgb(250, 246, 242);
@@ -237,35 +235,6 @@ ul{
        margin-left:200px ;
     }
 }
-@media screen and (min-width:500px) and (max-width:1000px){
-    .sheet1{
-        background-color:white;
-        height: 300px;
-        width: 300px;
-        font-size: 10px;
-        align-content: center;
-    }
-    }
-    @media screen and (min-width:500px) and (max-width:1000px){
-        .d2 .d3 .d4 .d5 .d6 {
-            padding: 5px;
-    
-        }
-    }
-    @media screen and (min-width:500px) and (max-width:1000px){
-        .lt {
-             margin-left: 20px; 
-            margin-top: 5px; 
-           margin-right: 50px;
-        }
-    }
-    @media screen and (min-width:500px) and (max-width:1000px) {
-        .r {
-       
-            margin-left:200px ;
-    }
-}
-
 p{
     padding: 4px;
     text-align: left;
