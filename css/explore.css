@@ -23,7 +23,8 @@
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: "Pacifico", cursive;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
 }
 
 .navbar ul li::after {
@@ -44,7 +45,7 @@
     margin-right: 50px;
 }
 .card-container {
-    background-image: url(./../image/backimg.jpeg);
+    background-image: url(./../images/backimg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,7 +60,7 @@
   
 }
 .card{
-    height: 260px;
+    height: 280px;
     width: 300px;
     background-color: white;
     border-radius: 10px;
@@ -72,12 +73,12 @@
     box-shadow: 2px 5px 8px gray;
 }
 .card-img{
-    height: 120px;
-    width:220px;
-    padding: 5px;
+    height: 140px;
+    width:300px;
+    padding: 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 10px;
 }
 .villa-name{
@@ -91,6 +92,8 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .info{
     color:#000033;
@@ -101,6 +104,9 @@
     justify-content: space-between;
     font-size: 15px;
 
+}
+.key-value{
+    font-size: 18px;
 }
 span{
     color: green;
@@ -143,6 +149,9 @@ a{
     width: 100%;
 }
 @media screen and (max-width: 720px){
+    .navbar ul li{
+        margin: 0 10px;
+    }
     .card-container{
         padding: 5px;
         flex-direction: row;
@@ -154,6 +163,12 @@ a{
         margin: 20px;
         height: 210px;
         width: 250px;
+       }
+       .card-img{
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
        }
        .info{
         display: none;
@@ -177,6 +192,7 @@ a{
        }
        .card{
         margin: 5px;
+        margin-bottom: 20px;
        }
   }
 @media screen and (min-width: 740px) and (max-width: 1092px) {
