@@ -81,7 +81,8 @@ body{
         }
         
         .text{
-            margin-left: 2px;
+            align-content: center;
+            
         
         }
         .villa-block{
@@ -290,7 +291,7 @@ body{
   }
    .background-text1{
     position: absolute;
-    color: yellow;
+    color: brown;
     padding: 10px;
     top: 33%;
     font-size: 39px;
@@ -307,7 +308,7 @@ body{
    }
    .background-text3{
     position: absolute;
-    color: yellow;
+    color: brown;
     padding: 10px;
     top: 58%;
     font-size: 34px;
@@ -344,14 +345,14 @@ body{
 }
 .background-text5{
     position: absolute;
-    color: yellow;
+    color: brown;
     top: 70%;
     font-size: 25px;
     margin-left: 700px;
 }
 .background-text6{
     position: absolute;
-    color: yellow;
+    color: brown;
     top: 76%;
     font-size: 25px;
     margin-left: 600px;
