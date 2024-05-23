@@ -47,11 +47,11 @@
 .navbar ul li:hover::after {
     width: 100%;
 }
-.site-name {
-    font-size: 60px;
+.villa-n{
     font-family: "Pacifico", cursive;
-    margin-right: 50px;
-}
+    font-size: 40px;
+    color: #fff;
+margin-right: 40px;}
 .card-container {
     background-image: url(./../images/backimg.jpeg);
     background-position: center;
