@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-image: url('./../images/white.avif');
+    background-size: cover;
+    background-clip: border-box;  
+}
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* Header Section*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -196,19 +201,7 @@ ul{
   margin-bottom: 50px; 
   
 }
-.sheet1{
-    font-family: "Briem Hand", cursive;
-    height: 300px;
-    width: 500px;
-    background-color: #b9d8ed;
-    border: 2px solid white;
-    /*margin-top: 80px; */
-    box-shadow: 2px 2px 2px 2px gray;
-   border-radius: 1px;
-   align-content: center;
-     margin-left: auto;
-   margin-right: auto; 
-}
+
 @media screen and (min-width:500px) and (max-width:1000px){
 .sheet{
     background-color: rgb(250, 246, 242);
@@ -237,15 +230,6 @@ ul{
        margin-left:200px ;
     }
 }
-@media screen and (min-width:500px) and (max-width:1000px){
-    .sheet1{
-        background-color:white;
-        height: 300px;
-        width: 300px;
-        font-size: 10px;
-        align-content: center;
-    }
-    }
     @media screen and (min-width:500px) and (max-width:1000px){
         .d2 .d3 .d4 .d5 .d6 {
             padding: 5px;
@@ -289,7 +273,11 @@ p{
     background-color: pink;
     zoom: 1;
 }
-    
+    table,th,td{
+        border: 1px solid;
+        padding: 8px;
+        
+    }
 .footer {
     background-color: rgb(30, 53, 65);
     color: white;
