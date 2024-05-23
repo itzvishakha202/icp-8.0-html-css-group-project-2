@@ -216,6 +216,10 @@ a{
        .card{
         margin: 20px;
        }
+       .villa-n{
+        font-size: 25px;
+        margin-right: 20px;
+       }
   }
   @media screen and (min-width: 1092px) and (max-width: 1156px) {
     .card-container{
@@ -227,6 +231,7 @@ a{
        }
        .card{
         margin: 20px;
+        margin-right: ;
        }
   }
   @media screen and (min-width: 1157px) and (max-width: 1390px) {
