@@ -1,4 +1,10 @@
-  
+.villa-n {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #fff;
+  margin-right: 40px;
+}  
+
 .img-container {
     margin-top: 100px;
   display: flex;
