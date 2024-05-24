@@ -87,7 +87,6 @@ body {
 }
 
 .head-sec {
-  margin-left: 50px;
   font-size: 35px;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
@@ -162,16 +161,16 @@ border-radius: 5px;
 #contact-form label {
   font-size: 18px;
   color: #3a3a3a;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 #contact-form input,
 #contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
   background-color: #f6f6f6;
-  border-radius: 5px;
+  width: 100%;
+  padding: 0px 15px;
+  border: none;
+  border-radius: 22px;
   font-size: 16px;
   margin-bottom: 15px;
 }
