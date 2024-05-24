@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(30, 53, 65);
+    position: fixed;
+    top: 0px;
 }
 .navbar ul li {
     list-style: none;
@@ -67,6 +69,7 @@
     justify-content: space-around;
     align-items: start;
     flex-wrap: wrap;
+    margin-top: 60px;
   
 }
 .card{
