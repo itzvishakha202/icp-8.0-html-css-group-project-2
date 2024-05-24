@@ -325,7 +325,7 @@ h2 {
     padding: 10px;
     top: 24%;
     font-size: 32;
-    margin-left: 360px;
+    margin-left: 340px;
 }
 
 .background-text2 {
@@ -334,7 +334,7 @@ h2 {
     padding: 10px;
     top: 35%;
     font-size: 55px;
-    margin-left: 260px;
+    margin-left: 130px;
 }
 
 .background-text3 {
@@ -343,7 +343,7 @@ h2 {
     padding: 10px;
     top: 55%;
     font-size: 34px;
-    margin-left: 385px;
+    margin-left: 375px;
 }
 
 
@@ -360,15 +360,15 @@ h2 {
 
 .background-text5 {
     position: absolute;
-    color: rgb(10, 10, 10);
+    color: yellow;
     top: 70%;
     font-size: 45px;
-    margin-left: 550px;
+    margin-left: 545px;
 }
 
 .background-text6 {
     position: absolute;
-    color: yellow;
+    color: black;
     top: 82%;
     font-size: 25px;
     margin-left: 520px;
