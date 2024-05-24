@@ -1,6 +1,12 @@
-  
+.villa-name {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #fff;
+  margin-right: 40px;
+}  
+
 .img-container {
-    margin-top: 100px;
+    margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
    justify-content: space-between;
