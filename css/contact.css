@@ -12,6 +12,7 @@
 }
 
   .background-img{
+    height: auto;
     position: relative;
     margin-top: 50px;
   }
@@ -25,8 +26,7 @@
   .section{
     margin-top: 10px;
     width: 100%;
-   height: 1100px;
-
+   height: auto;
   }
   .section-heading {
     width: 380px;
@@ -167,18 +167,18 @@
   bottom: 0;
 }
 
-/* Media query for screens between 600px and 768px width */
 @media screen and (max-width: 768px) {
   .navbar {
-    height:200px;
+    height:auto;
     flex-direction: column;
-   align-items: flex-start;
+     align-items: flex-start;
     padding: 5px;
     position: relative;
 }
 
 .navbar ul {
-    margin-top: 5px;
+  height: auto;  
+  margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -189,13 +189,15 @@
 .navbar ul li {
     margin: 5px;
 }
-
+.villa-name{
+  display: none;
+}
   .section{
-    margin-top: 50px;
-    height: 1500px;
+    height: auto;
+    margin-top: 200px;
   }
   .background-img{
-    margin-top: 100px;
+    margin-top: 500px;
   }
   .background-text{
     margin-top: -20px;
