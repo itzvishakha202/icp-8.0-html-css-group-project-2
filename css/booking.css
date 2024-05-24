@@ -7,7 +7,7 @@
 }
 .banner {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(./../images/b-box2.jpg);
     background-size:cover;
     background-position: center;
@@ -104,17 +104,10 @@
 .d-img img {
     display: block;
 }
-.bk{
-    font-size: 20px;
-    color:#009688;
-    font-family: "Ubuntu", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
+
 .h1{
    text-align: center;
    color: black;
    margin-top: 20px;
+   font-size: 60px;
 }
