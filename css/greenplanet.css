@@ -321,8 +321,8 @@ h2 {
 
 .background-text {
     position: absolute;
-    color: black;
-    padding: 10px;
+    color: yellow;
+    padding: 25px;
     top: 24%;
     font-size: 32;
     margin-left: 340px;
@@ -330,18 +330,18 @@ h2 {
 
 .background-text2 {
     position: absolute;
-    color: yellow;
+    color: black;
     padding: 10px;
-    top: 35%;
+    top: 40%;
     font-size: 55px;
     margin-left: 130px;
 }
 
 .background-text3 {
     position: absolute;
-    color: black;
+    color: yellow;
     padding: 10px;
-    top: 55%;
+    top: 60%;
     font-size: 34px;
     margin-left: 375px;
 }
@@ -360,16 +360,16 @@ h2 {
 
 .background-text5 {
     position: absolute;
-    color: yellow;
-    top: 70%;
+    color: black;
+    top: 80%;
     font-size: 45px;
-    margin-left: 545px;
+    margin-left: 538px;
 }
 
 .background-text6 {
     position: absolute;
-    color: black;
-    top: 82%;
+    color: yellow;
+    top: 95%;
     font-size: 25px;
     margin-left: 520px;
 }
