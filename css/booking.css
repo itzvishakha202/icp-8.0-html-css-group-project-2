@@ -138,7 +138,7 @@
     }
 
 .feedback-form {
-    background: rgb(215, 247, 215) ;
+    background:  #009688;
     border-radius: 10px;
     box-shadow: 0 4px 8px gray;
     max-width: 550px;
@@ -167,7 +167,7 @@
 }
 
 .btn{
-    background-color: #4CAF50;
+    background-color:  rgb(30, 53, 65);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -191,6 +191,23 @@
 .terms{
     text-align: center;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
+    font-weight: bold;
 
+}
+.review-box {
+    background-color: white;
+    border: 3px solid rgb(30, 53, 65);
+    border-radius: 4px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(43, 43, 43, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.review-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
 }
