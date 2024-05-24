@@ -250,7 +250,7 @@ h2 {
     height: 273px;
     border: black;
     background-color: white;
-    margin-left: 250px;
+    margin-left: 70px;
 
 }
 
@@ -262,7 +262,8 @@ h2 {
 .location1 {
     color: black;
     font-size: 17px;
-    margin-left: 200px;
+    
+    align-self: center;
 
 
 }
@@ -322,7 +323,7 @@ h2 {
     padding: 10px;
     top: 24%;
     font-size: 32;
-    margin-left: 570px;
+    margin-left: 360px;
 }
 
 .background-text2 {
@@ -331,7 +332,7 @@ h2 {
     padding: 10px;
     top: 35%;
     font-size: 55px;
-    margin-left: 490px;
+    margin-left: 260px;
 }
 
 .background-text3 {
@@ -340,7 +341,7 @@ h2 {
     padding: 10px;
     top: 55%;
     font-size: 34px;
-    margin-left: 600px;
+    margin-left: 385px;
 }
 
 
@@ -360,7 +361,7 @@ h2 {
     color: rgb(10, 10, 10);
     top: 70%;
     font-size: 45px;
-    margin-left: 800px;
+    margin-left: 550px;
 }
 
 .background-text6 {
@@ -368,7 +369,7 @@ h2 {
     color: yellow;
     top: 82%;
     font-size: 25px;
-    margin-left: 780px;
+    margin-left: 520px;
 }
 
 .background-img {
