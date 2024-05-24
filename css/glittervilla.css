@@ -476,7 +476,13 @@ body{
            width: 100%;
            height: 600px;
            
-       }
+       } .villa-name{
+        font-family: "Pacifico", cursive;
+        font-size: 40px;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+    }
        .background-text{
            margin-left: 138px;
            font-size: 29px;
