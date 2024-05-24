@@ -4,12 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
-.navbar ul li:hover::after {
-    width: 100%;
+.villa-name {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #fff;
+  margin-right: 40px;
 }
+
   .background-img{
     position: relative;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .background-text{
     position: absolute;
@@ -19,6 +23,7 @@
     font-size: 35px;
   }
   .section{
+    margin-top: 10px;
     width: 100%;
    height: 1100px;
 
@@ -161,14 +166,36 @@
   height: 30px;
   bottom: 0;
 }
-@media screen and (max-width: 600px) {
-  /* Add your CSS rules here */
-}
 
 /* Media query for screens between 600px and 768px width */
 @media screen and (max-width: 768px) {
+  .navbar {
+    height:200px;
+    flex-direction: column;
+   align-items: flex-start;
+    padding: 5px;
+    position: relative;
+}
+
+.navbar ul {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul li {
+    margin: 5px;
+}
+
   .section{
+    margin-top: 50px;
     height: 1500px;
+  }
+  .background-img{
+    margin-top: 100px;
   }
   .background-text{
     margin-top: -20px;
