@@ -103,7 +103,7 @@ h2 {
     display: block;
     height: 440px;
     width: 1100px;
-    background-color: lavenderblush;
+    background-color: #009688;
     margin-left: 125px;
     padding: 4.5px;
     border: 2px solid black;
@@ -136,7 +136,7 @@ h2 {
 
 .block1 {
     display: block;
-    background-color: lavenderblush;
+    background-color: #009688;
     height: 400px;
     width: 700px;
     margin-left: 300px;
@@ -171,7 +171,7 @@ h2 {
 
 .villa-photos {
     display: flex;
-    background-color: lavenderblush;
+    background-color:#009688 ;
 
     height: 520px;
     width: 1200px;
