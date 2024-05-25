@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>review</title>
+    <title>Feedback</title>
     <link rel="stylesheet" href="./../css/feedback.css">
 </head>
-<body>
-    <div class="navbar">
-        <ul>
-            <li><a href="./../index.html">Home</a></li>
-            <li><a href="./../pages/explore.html">explore</a></li>
-            <li><a href="./../pages/ourteam.html">Members</a></li>
-            <li><a href="./../pages/contact.html">Contact Us</a></li>
-            <li><a href="./../pages/review.html">Feedback</a></li>
 
-        </ul>
-        <div class="villa-name">Dream Villa</div>
-    </div>
+<body>
+    <header>
+        <div class="banner">
+            <div class="navbar">
+
+                <ul>
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./../pages/explore.html" >Explore</a></li>
+                    <li><a href="./../pages/ourteam.html" >Members</a></li>
+                    <li><a href="./../pages/contact.html" >Contact Us</a></li>
+                    <li><a href="./../pages/review.html" class="active">Feedback</a></li>
     
-</header>
-</head>
-<body>
-
+                </ul>
+                <div class="villa-name">Dream Villa</div>
+            </div>
+            
+    </header>
+    
     <div class="container">
         <div class="feedback-form">
             <h2>Feedback Form</h2>
             <form>
-                <label for="name" class="label"> Name:</label>
+                <label for="name" class="label">Name:</label>
                 <input type="text" id="name" name="name" required class="finput" placeholder="Enter your name">
 
-                <label for="mob" class="label">Enter MoB Number :</label>
-                <input type="tel" id="mob" placeholder="91-xxxxxxxxxx" class="finput">
+                <label for="mob" class="label">Mobile Number:</label>
+                <input type="tel" id="mob" name="mob" required class="finput" placeholder="91-xxxxxxxxxx">
 
-                <label for="email" class="label">Email :</label>
+                <label for="email" class="label">Email:</label>
                 <input type="email" id="email" name="email" required class="finput" placeholder="abc@xyz">
 
-                <label class="label">Overall Experience</label>
-                <label for="feedback">Feedback :</label><br>
-                <textarea id="feedback" name="feedback" rows="4" required class="feedback" placeholder="Enter here..."></textarea><br>
+                <label for="experience" class="label">Overall Experience:</label>
+                <select id="experience" name="experience" class="finput" required>
+                    <option value="" disabled selected>Select your experience</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+
+                <label for="feedback" class="label">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required class="finput" placeholder="Enter your feedback here..."></textarea>
 
                 <button type="submit" class="btn">Submit</button>
-
             </form>
         </div>
-</div>
+    </div>
 
     <div class="footer">
         <p>&copy; 2024 Dream Villa Escapes. All rights reserved.</p>
-      </div>
+    </div>
+
 </body>
+
 </html>
