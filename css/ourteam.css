@@ -40,7 +40,8 @@ body, html {
     text-decoration: none;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    margin-left: 15px;
 }
 
 .navbar ul li::after {
