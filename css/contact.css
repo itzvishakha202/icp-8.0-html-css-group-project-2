@@ -39,7 +39,8 @@ body, html {
   text-decoration: none;
   color: #fff;
   font-family: "Ubuntu", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+    margin-left: 15px;
 }
 
 .navbar ul li::after {
@@ -193,7 +194,7 @@ border-radius: 5px;
 #contact-form label {
   font-size: 18px;
   color: #3a3a3a;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #contact-form input,
@@ -204,6 +205,7 @@ border-radius: 5px;
   border: none;
   border-radius: 22px;
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
