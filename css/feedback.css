@@ -1,34 +1,46 @@
-@font-face {
-    font-family: "myFont";
-    src: url(./font.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-image: url('./../images/white.avif');
-    background-size: cover;
-    background-clip: border-box;  
+
+body, html {
+    height: 100%;
 }
+
 .navbar {
     width: 100%;
-    height: 30px;
-   padding: 20px 0;
+    height: 60px;
+    padding: 20px 0;
     display: flex;
-   
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(30, 53, 65);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
-.navbar ul li {
+
+.navbar ul {
+    display: flex;
     list-style: none;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
     margin: 0 20px;
     position: relative;
-    align-items: start;
 }
+
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     font-size: 20px;
-    align-items: start;
 }
 
 .navbar ul li::after {
@@ -38,135 +50,92 @@ body{
     position: absolute;
     left: 0;
     bottom: -10px;
+    transition: width 0.3s;
 }
 
 .navbar ul li:hover::after {
     width: 100%;
 }
- li{
-    text-align: -webkit-match-parent;
+
+.navbar ul li a.active::after {
+    width: 100%;
+}
+.navbar ul li a.active::after {
+    width: 100%; 
+    content: '';
+    height: 3px;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.villa-name {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 40px;
 }
 
-
 .container {
-    background-image: url('./../images/white.avif'); 
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+    margin-top: 100px; /* Adjust according to the header height */
+    margin-bottom: 10px; /* Adjust according to the footer height */
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    min-height: calc(100vh - 160px); /* Adjust according to header and footer height */
 }
-@media screen and (min-width:500px) and (max-width:1000px){
-    .container{
-        background-color: rgb(250, 246, 242);
-        height: 500px;
-        width: 400px;
-        font-size: 10px;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    }
 
 .feedback-form {
-    background: rgb(215, 247, 215) ;
+    background: #009688;
     border-radius: 10px;
     box-shadow: 0 4px 8px gray;
     max-width: 550px;
     width: 100%;
-    padding: 1%;
-    margin-top: 20px;
- 
-}
-
-h2{
-    text-align: center;
-    margin-top: 20px;
-    padding: auto;
-    color: #45a049;
-}
-
-.label{
-    display: block;
-    margin-left: 5px;
-}
-
-.finput{
-    height: 2%;
-    width: 85%;
     padding: 10px;
-    margin: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(30, 53, 65);
+}
+
+.label {
+    display: block;
+    margin: 10px;
+}
+
+.finput, .feedback {
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.btn{
-    background-color: #4CAF50;
+.btn {
+    background-color: rgb(30, 53, 65);
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 40%;
-    margin-top: 15px;
+    display: block;
+    margin: 20px auto;
 }
 
-.subbtn:hover {
-    background-color: #45a049;
+.btn:hover {
+    background-color: rgb(30, 53, 65);
 }
 
-
-.e{
-    margin: 25px;
-   
-}
-
-.feedback{
-    width: 90%;
-    border-radius: 5px;
-    border: none;
-    margin: 8px;
-
-}
-
-.navbar{
-   
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.navbar-links{
-    display: flex;
-    list-style: none;
-    gap: 70px; 
-}
-.nav-login{
-    height: 30px;
-}
-.navbar-container{
-    width: 100%;
-    padding: 20px;
-    background-color: aqua;
-    position: fixed;
-
-}
-@media screen and (max-width: 720px){
-    .navbar ul li{
-        margin: 0 10px;
-    }
-}
 .footer {
     background-color: rgb(30, 53, 65);
     color: white;
     text-align: center;
     font-size: 20px;
-    padding: 0 2px;
-    /*position: fixed;*/
-  bottom: 0%;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
