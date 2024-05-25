@@ -1,9 +1,74 @@
-/* Header Section*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body, html {
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(30, 53, 65);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li a.active::after {
+  width: 100%;
+}
+.navbar ul li a.active::after {
+  width: 100%; 
+  content: '';
+  height: 3px;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
 .villa-name {
   font-family: "Pacifico", cursive;
   font-size: 40px;
@@ -11,227 +76,236 @@
   margin-right: 40px;
 }
 
-  .background-img{
-    height: auto;
-    position: relative;
-    margin-top: 50px;
-  }
-  .background-text{
-    position: absolute;
-    color: white;
-    padding: 10px;
-    top: 50%;
-    font-size: 35px;
-  }
-  .section{
-    margin-top: 10px;
-    width: 100%;
-   height: auto;
-  }
-  .section-heading {
-    width: 380px;
-    height: 80px;
-    margin-left: 50px;
-    margin-top: 50px;
-  }
-  .head-sec{
-    margin-left: 50px;
-    font-size: 35px;
-    font-family: "Ubuntu", sans-serif;
-  }
-  .head-info-l{
-    margin-bottom: 50px;
-    font-size: 25px;
-    margin-left: 25px;
-    margin-bottom: 80px;
-  }
-  .left-container{
-    width: 50%;
-    float: left;
-  }
-  .phone-sec {
-    margin-top: 120px;
-    background-color: #f6f6f6;
-    display:flex;
-    border: 1px solid black;
-    box-shadow: 2px 2px 3px 2px  rgba(0, 0, 0, 0.15);
-    margin-left: 40px;
-    padding: 10px;
-   height: 100px;
-    width: 250px;
-    border-radius: 5px;
-  }
-  .img-icon{
-    height: 50px;
-    width: 55px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 20px;
-  }
-  .img-desc{
-    margin-left: 15px;
-    margin-top: 35px;
-    text-decoration: none;
-    font-size: 22px;
-  }
-  .p-tag{
-    margin-top: 40px;
-    margin-right: 70px;
-  }
-  .email-sec{
-    background-color: #f6f6f6;
-    display:flex;
-    border: 1px solid black;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-    margin-left: 40px;
-    margin-top: 50px;
-    padding: 10px;
-   height: 100px;
-    width: 250px;
-    border-radius: 5px;
-  }
 
-  .right-container{
-    width: 50%;
-    float: right;
-  }
-  .head-info-r{
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    margin-left: 35px;
-  }
-  .right-container #contact-form {
-    height: 450px;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-    padding: 35px 30px;
-    background-color: #fff;
-  }
+.background-img {
+  position: relative;
 
-  .right-container #contact-form label {
-    font-size: 20px;
-    color: #3a3a3a;
-    margin-bottom: 15px;
-  }
+}
 
-  .right-container #contact-form input {
-   width: 100%;
-    height: 44px;
-    border-radius: 22px;
-    background-color: #f6f6f6;
-    border: none;
-    margin-bottom: 30px;
-    font-size: 14px;
-    padding: 0px 15px;
-  }
-
-  .right-container #contact-form textarea {
-    width: 100%;
-    height: 50px;
-    max-height: 180px;
-    border-radius: 22px;
-    background-color: #f6f6f6;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    padding: 15px 15px;
-  }
-
-  .right-container #contact-form button {
-    background-color:  rgb(30, 53, 65);
-    height: 44px;
-    border-radius: 22px;
-    padding: 0px 20px;
-    color: #fff;
-    border: none;
-    font-size: 15px;
-  }
-
-   #contact-form button:hover {
-    background-color: #f35525;
-  }
-.footer{
-  background-color: rgb(30, 53, 65);
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  padding: 5px 0;
+.background-img img {
   width: 100%;
-  height: 30px;
-  bottom: 0;
+  height: auto;
 }
 
-@media screen and (max-width: 768px) {
+.background-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  padding: 10px;
+}
+
+.section {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.right-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.head-sec {
+  font-size: 35px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.head-info-l {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.contact-info > div {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.phone-sec {
+margin-top: 50px;
+background-color: #f6f6f6;
+display:flex;
+border: 1px solid black;
+box-shadow: 2px 2px 3px 2px  rgba(0, 0, 0, 0.15);
+margin-left: 40px;
+padding: 10px;
+height: 100px;
+width: 250px;
+border-radius: 5px;
+}
+.email-sec{
+background-color: #f6f6f6;
+display:flex;
+border: 1px solid black;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+margin-left: 40px;
+margin-top: 50px;
+padding: 10px;
+height: 100px;
+width: 250px;
+border-radius: 5px;
+}
+.img-icon {
+  height: 50px;
+  width: 55px;
+  margin-right: 15px;
+}
+
+.img-desc {
+  font-size: 22px;
+  text-decoration: none;
+  color: #333;
+}
+
+#contact-form {
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#contact-form label {
+  font-size: 18px;
+  color: #3a3a3a;
+  margin-bottom: 15px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 0px 15px;
+  border: none;
+  border-radius: 22px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#contact-form textarea {
+  height: 120px;
+}
+
+#contact-form button {
+  background-color: rgb(30, 53, 65);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #f35525;
+}
+
+.footer {
+  background-color: rgb(30, 53, 65);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
   .navbar {
-    height:auto;
-    flex-direction: column;
-     align-items: flex-start;
-    padding: 5px;
-    position: relative;
-}
-
-.navbar ul {
-  height: auto;  
-  margin-top: 5px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbar ul li {
-    margin: 5px;
-}
-.villa-name{
-  display: none;
-}
-  .section{
+    padding: 10px;
     height: auto;
-    margin-top: 200px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .navbar ul li {
+    margin: 5px 0;
+  }
+
+  .villa-name {
+    display: none;
+  }
+
+  .background-text {
+    font-size: 24px;
+  }
+
+  .section {
+    flex-direction: column;
+
   }
   .background-img{
-    margin-top: 500px;
+   margin-top: 195px;
   }
-  .background-text{
-    margin-top: -20px;
 
+  .left-container {
+    width: 100%;
+    margin-top: 10px;
   }
-  .left-container{
-    width: 0%;
+
+  .right-container {
+    width: 100%;
   }
-  .head-info-l{
-    margin-left: 0px;
-    margin-bottom: 5px;
+
+  .contact-info > div {
+    padding: 8px;
+  }
+
+  .img-icon {
+    height: 40px;
+    width: 45px;
     margin-right: 10px;
   }
-  .head-sec{
-    font-size: 30px;
-    margin-left: 0px;
-  }
-  .phone-sec{
-    margin-top: 70px;
-  }
-  .img-icon{
-    height: 40px;
 
-  }
-  .email-sec{
-    margin-top: 15px;
-
-  }
-  .right-container{
-    width: 100%;
-    
-  }
-  .head-info-r{
-    margin-top: 480px;
+  .img-desc {
+    font-size: 18px;
   }
 
+  #contact-form {
+    padding: 15px;
+  }
+
+  #contact-form label {
+    font-size: 16px;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  #contact-form button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
