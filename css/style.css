@@ -10,23 +10,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 0;
+    height: 45px;
   }
-  
-  .navbar ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
+    
   .navbar ul li {
-    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
   }
   
   .navbar ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 22px;
     font-family: 'Ubuntu', sans-serif;
   }
   
