@@ -196,5 +196,8 @@ body, html {
       height: 40px;
       margin-left: 30px;
     }
-  
+    .img{
+      height: 120px;
+    }
+
   }
