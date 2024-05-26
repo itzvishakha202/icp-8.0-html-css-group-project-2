@@ -24,6 +24,12 @@ body{
     margin: 0 20px;
     position: relative;
 }
+.villa-name{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 40px;
+}
 
 .navbar ul li a {
     text-decoration: none;
@@ -356,7 +362,6 @@ body{
     height: 800px;
 }
 
-
     /* small divices */
     @media screen and (min-width: 150px) and (max-width: 600px) {
          .background-img{
@@ -466,10 +471,12 @@ body{
             margin-left: 234px;
             padding: 10px 10px;
             font-size: 15px;
+            background-color: rgb(30, 53, 65);
         }
         .btn3:hover{
             transform: scale(1);
             transition: 0.2s;
+            box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
         }
         .footer{
             font-size: 17px;
@@ -586,6 +593,7 @@ body{
                 margin-left: 280px;
                 padding: 10px 10px;
                 font-size: 17px;
+                background-color: rgb(30, 53, 65);
             }
             .text{
                 font-size: 60px;
@@ -593,6 +601,8 @@ body{
             .btn3:hover{
                 transform: scale(1);
                 transition: 0.2s;
+                box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
+
             }
             .footer{
                 font-size: 19px;
@@ -708,6 +718,7 @@ body{
                 margin-left: 415px;
                 padding: 10px 10px;
                 font-size: 17px;
+                background-color: rgb(30, 53, 65);
             }
             .text{
                 font-size: 22px;
@@ -715,6 +726,8 @@ body{
             .btn3:hover{
                 transform: scale(1);
                 transition: 0.2s;
+                box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
+
             }
             .footer{
                 font-size: 20px;
@@ -832,6 +845,7 @@ body{
                 margin-left: 455px;
                 padding: 10px 10px;
                 font-size: 17px;
+                background-color: rgb(30, 53, 65);
             }
             .text{
                 font-size: 22px;
@@ -839,6 +853,8 @@ body{
             .btn3:hover{
                 transform: scale(1);
                 transition: 0.2s;
+                box-shadow: 0 8px 16px rgba(46, 45, 45, 0.2);
+
             }
             .footer{
                 font-size: 20px;
