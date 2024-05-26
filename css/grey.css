@@ -51,7 +51,13 @@ body{
 .navbar ul li:hover::after {
     width: 100%;
 }
-        
+   
+.villa-name {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 40px;
+  }
         .villa-btn{
             margin-left: 450px;
             background-color: rgb(245, 175, 175);
